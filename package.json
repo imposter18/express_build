@@ -2,11 +2,11 @@
   "name": "education_table_server",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index",
+  "main": "index",
   "scripts": {
     "dev": "npx nodemon",
-    "build": "rimraf ./build && npx tsc ",
-    "start": "node build/index"
+    "build": "npx tsc",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
