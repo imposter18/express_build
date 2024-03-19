@@ -12,7 +12,6 @@
   "ts-node": {
     "esm": true
   },
-  
   "lib": ["esnext"],
   "resolveJsonModule": true,
   "include": ["src/**/*"]
